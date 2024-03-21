@@ -31,3 +31,27 @@
     grid-template-rows: repeat(2, auto);
     gap: 20px;
 }
+
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 240px;
+    height: 450px;
+    padding: 50px 35px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.card img{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 240px;
+    height: 450px;
+}
+
+.card .title{
+    font-size: 32px;
+}
