@@ -4,6 +4,8 @@ import InteractiveSection from "../interactiveSection/interactiveSection";
 import CreationsSection from "../creationsSection/creationsSection";
 import Footer from "../../footer/footer";
 
+import './landingPage.css'
+
 const LandingPage = () => {
     return (
         <div className="landingPage">

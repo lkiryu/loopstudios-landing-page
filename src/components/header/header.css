@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.nav-link a{
+    color: hsl(0, 0%, 100%);
+}
+
+.header .title{
+    color: hsl(0, 0%, 100%);
+    font-size: 60px;
+    padding: 40px;
+    border: 3px solid hsl(0, 0%, 100%);
+    width: 600px;
+    margin-top: 60px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: hsl(0, 0%, 0%);
+    margin: 8px;
+    transition: 0.3s;
+}
