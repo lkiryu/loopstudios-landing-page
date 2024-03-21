@@ -1,0 +1,33 @@
+.creations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+}
+
+.creationsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.creationsHeader .title{
+    font-size: 50px;
+}
+
+.creationsHeader .button{
+    border: 2px solid hsl(0, 0%, 41%);
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.creations .cards{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}

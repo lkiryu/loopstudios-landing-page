@@ -21,4 +21,5 @@ body{
 .title{
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
+    font-weight: 300;
 }
