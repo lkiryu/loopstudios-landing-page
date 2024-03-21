@@ -1,5 +1,7 @@
 import React from "react";
 
+import './interactiveSection.css'
+
 const InteractiveSection = () => {
     return (
         <section className="interactive">

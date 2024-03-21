@@ -1,0 +1,27 @@
+.interactive{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 70vw;
+    height: 500px;
+    background-image: url(../../images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.interactive .info{
+    background-color: hsl(0, 0%, 100%);
+    padding: 80px 0 0 80px;
+    width: 560px;
+}
+
+.info .title{
+    color: hsl(0, 0%, 0%);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.info .description{
+    color: hsl(0, 0%, 55%);
+    line-height: 28px;
+}

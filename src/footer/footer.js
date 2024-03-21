@@ -6,40 +6,40 @@ const Footer = () => {
         <footer className="footer">
                 <div>
                     <a href="/">
-                        <img src={logo} className="logo"></img>
+                        <img src={logo} alt="logo"></img>
                     </a>
 
                     <ul className="social">
                         <li>
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="/"><i class="fa-brands fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="/"><i class="fa-brands fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="/"><i class="fa-brands fa-pinterest"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="/"><i class="fa-brands fa-instagram"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <ul>
                         <li>
-                            <a href="#">About</a>
+                            <a href="/">About</a>
                         </li>
                         <li>
-                            <a href="#">Careers</a>
+                            <a href="/">Careers</a>
                         </li>
                         <li>
-                            <a href="#">Events</a>
+                            <a href="/">Events</a>
                         </li>
                         <li>
-                            <a href="#">Products</a>
+                            <a href="/">Products</a>
                         </li>
                         <li>
-                            <a href="#">Support</a>
+                            <a href="/">Support</a>
                         </li>
                     </ul>
 
