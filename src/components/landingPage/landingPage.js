@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../header/header";
 import InteractiveSection from "../interactiveSection/interactiveSection";
+import CreationsSection from "../creationsSection/creationsSection";
 
 const LandingPage = () => {
     return (
@@ -8,11 +9,8 @@ const LandingPage = () => {
             <Header/>
 
             <InteractiveSection/>
-            <section className="creations">
-                <h2 className="title"></h2>
-                <button className="button"></button>
-                <div className="cards"></div>
-            </section>
+            
+            <CreationsSection/>
             <footer className="footer">
                 <div>
                     <a href="/">
