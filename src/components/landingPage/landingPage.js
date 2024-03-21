@@ -1,17 +1,13 @@
 import React from "react";
 import Header from "../header/header";
+import InteractiveSection from "../interactiveSection/interactiveSection";
 
 const LandingPage = () => {
     return (
         <div className="landingPage">
             <Header/>
 
-            <section className="interactive">
-                <div className="info">
-                    <h2 className="title"></h2>
-                    <p className="description"></p>
-                </div>
-            </section>
+            <InteractiveSection/>
             <section className="creations">
                 <h2 className="title"></h2>
                 <button className="button"></button>
