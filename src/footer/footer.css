@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: hsl(0, 0%, 0%);
-    color: hsl(0, 0%, 100%);
     width: 100%;
     padding: 40px;
 }
@@ -19,6 +18,26 @@
 .footer div ul{
     display: flex;
     gap: 30px;
+}
+
+.footer ul li a{
+    position: relative;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer ul li a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: hsl(0, 0%, 100%);
+    transition: width 0.2s;
+}
+
+.footer ul li a:hover::after{
+    width: 100%;
 }
 
 .social li{
