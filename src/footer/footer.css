@@ -47,3 +47,32 @@
 .rights{
     color: hsl(0, 0%, 55%);
 }
+
+@media(max-width:1024px){
+    .footer div{
+        width: 90vw;
+    }
+}
+
+@media(max-width:800px){
+    .footer div ul{
+        gap: 15px;
+    }
+}
+
+@media(max-width:500px){
+    .footer div{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer div:last-child ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rights{
+        font-size: 14px;
+    }
+}

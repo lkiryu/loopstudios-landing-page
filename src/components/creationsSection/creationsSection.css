@@ -24,6 +24,13 @@
     padding: 10px 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: 0.3s ease-in;
+}
+
+.creationsHeader .button:hover{
+    background-color: hsl(0, 0%, 0%);
+    border: 2px solid hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
 }
 
 .creations .cards {
@@ -66,4 +73,31 @@
 
 .card:hover .title{
     color: hsl(0, 0%, 0%);
+}
+
+@media(max-width:1024px){
+    .creations {
+        width: 90vw;
+    }
+
+    .creations .cards {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, auto);
+    }
+}
+
+@media(max-width:500px){
+    .creationsHeader {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .creationsHeader .title {
+        font-size: 32px;
+    }
+
+    .creations .cards {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(8, auto);
+    }
 }

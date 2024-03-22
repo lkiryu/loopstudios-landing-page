@@ -23,3 +23,9 @@ body{
     text-transform: uppercase;
     font-weight: 300;
 }
+
+@media(max-width:500px){
+    .landingPage{
+        background-size: 100% 450px;
+    }
+}
