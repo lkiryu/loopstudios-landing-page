@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/loopstudios-landing-page/static/css/main.4fd967f2.css",
+    "main.js": "/loopstudios-landing-page/static/js/main.173f894f.js",
+    "static/media/image-hero.jpg": "/loopstudios-landing-page/static/media/image-hero.3de81110dee4f75f44f9.jpg",
+    "static/media/image-interactive.jpg": "/loopstudios-landing-page/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg",
+    "static/media/logo.svg": "/loopstudios-landing-page/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg",
+    "index.html": "/loopstudios-landing-page/index.html",
+    "main.4fd967f2.css.map": "/loopstudios-landing-page/static/css/main.4fd967f2.css.map",
+    "main.173f894f.js.map": "/loopstudios-landing-page/static/js/main.173f894f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fd967f2.css",
+    "static/js/main.173f894f.js"
+  ]
+}
