@@ -1,6 +1,6 @@
 import React from "react";
-import logo from '../images/logo.svg'
-import Links from "../components/links/links";
+import logo from "../../images/logo.svg"
+import Links from "../links/links";
 
 import './footer.css'
 
