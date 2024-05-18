@@ -27,7 +27,7 @@
     transition: 0.3s ease-in;
 }
 
-.creationsHeader .button:hover{
+.creationsHeader .button:hover {
     background-color: hsl(0, 0%, 0%);
     border: 2px solid hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
@@ -40,12 +40,15 @@
     gap: 20px;
 }
 
+.card, .card img{
+    width: 240px;
+    height: 450px;
+}
+
 .card {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    width: 240px;
-    height: 450px;
     padding: 50px 35px;
     color: hsl(0, 0%, 100%);
     position: relative;
@@ -57,8 +60,6 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 240px;
-    height: 450px;
     transition: 0.3s ease-in;
 }
 
@@ -71,22 +72,34 @@
     transition: 0.3s ease-in;
 }
 
-.card:hover .title{
+.card:hover .title {
     color: hsl(0, 0%, 0%);
 }
 
-@media(max-width:1024px){
+@media(max-width:1100px) {
     .creations {
         width: 90vw;
     }
 
-    .creations .cards {
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(4, auto);
+    .card,
+    .card img {
+        width: 190px;
+        height: 350px;
+    }
+
+    .card .title{
+        font-size: 24px;
     }
 }
 
-@media(max-width:500px){
+@media(max-width:800px){
+    .creations .cards {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media(max-width:500px) {
     .creationsHeader {
         flex-direction: column;
         gap: 20px;
