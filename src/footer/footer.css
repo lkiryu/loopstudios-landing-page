@@ -15,33 +15,19 @@
     margin: 10px 0;
 }
 
-.footer div ul{
+.social{
     display: flex;
-    gap: 30px;
-}
-
-.footer ul li a{
-    position: relative;
     color: hsl(0, 0%, 100%);
-}
-
-.footer ul li a::after{
-    content: '';
-    position: absolute;
-    height: 2px;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    background-color: hsl(0, 0%, 100%);
-    transition: width 0.2s;
-}
-
-.footer ul li a:hover::after{
-    width: 100%;
+    gap: 30px;
 }
 
 .social li{
     font-size: 24px;
+    transition: 0.3s ease-in;
+}
+
+.social li:hover{
+    color: hsl(0, 0%, 70%);
 }
 
 .rights{

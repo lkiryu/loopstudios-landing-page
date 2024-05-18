@@ -1,0 +1,24 @@
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+.links li a{
+    position: relative;
+    color: hsl(0, 0%, 100%);
+}
+
+.links li a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: hsl(0, 0%, 100%);
+    transition: width 0.2s;
+}
+
+.links li a:hover::after{
+    width: 100%;
+}
